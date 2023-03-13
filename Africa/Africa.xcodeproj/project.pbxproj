@@ -18,6 +18,7 @@
 		766635B729BF42E0008EEBBA /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 766635B329BF42E0008EEBBA /* covers.json */; };
 		766635B829BF42E0008EEBBA /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 766635B429BF42E0008EEBBA /* videos.json */; };
 		766635B929BF42E0008EEBBA /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 766635B529BF42E0008EEBBA /* animals.json */; };
+		766635BC29BF546B008EEBBA /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 766635BB29BF546B008EEBBA /* cheetah.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		766635B329BF42E0008EEBBA /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
 		766635B429BF42E0008EEBBA /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		766635B529BF42E0008EEBBA /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		766635BB29BF546B008EEBBA /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		7666357129BF411A008EEBBA /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				766635BA29BF545A008EEBBA /* Video */,
 				766635B129BF42CF008EEBBA /* Data */,
 				7666357229BF411A008EEBBA /* AfricaApp.swift */,
 				7666357429BF411A008EEBBA /* ContentView.swift */,
@@ -145,6 +148,14 @@
 				766635B429BF42E0008EEBBA /* videos.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		766635BA29BF545A008EEBBA /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				766635BB29BF546B008EEBBA /* cheetah.mp4 */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 				766635B729BF42E0008EEBBA /* covers.json in Resources */,
 				766635B929BF42E0008EEBBA /* animals.json in Resources */,
 				7666357729BF411D008EEBBA /* Assets.xcassets in Resources */,
+				766635BC29BF546B008EEBBA /* cheetah.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
