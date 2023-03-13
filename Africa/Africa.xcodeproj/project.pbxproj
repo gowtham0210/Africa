@@ -14,6 +14,10 @@
 		7666358429BF411D008EEBBA /* AfricaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7666358329BF411D008EEBBA /* AfricaTests.swift */; };
 		7666358E29BF411D008EEBBA /* AfricaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7666358D29BF411D008EEBBA /* AfricaUITests.swift */; };
 		7666359029BF411D008EEBBA /* AfricaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7666358F29BF411D008EEBBA /* AfricaUITestsLaunchTests.swift */; };
+		766635B629BF42E0008EEBBA /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 766635B229BF42E0008EEBBA /* locations.json */; };
+		766635B729BF42E0008EEBBA /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 766635B329BF42E0008EEBBA /* covers.json */; };
+		766635B829BF42E0008EEBBA /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 766635B429BF42E0008EEBBA /* videos.json */; };
+		766635B929BF42E0008EEBBA /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 766635B529BF42E0008EEBBA /* animals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		7666358929BF411D008EEBBA /* AfricaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfricaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7666358D29BF411D008EEBBA /* AfricaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaUITests.swift; sourceTree = "<group>"; };
 		7666358F29BF411D008EEBBA /* AfricaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		766635B229BF42E0008EEBBA /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		766635B329BF42E0008EEBBA /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		766635B429BF42E0008EEBBA /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		766635B529BF42E0008EEBBA /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 		7666357129BF411A008EEBBA /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				766635B129BF42CF008EEBBA /* Data */,
 				7666357229BF411A008EEBBA /* AfricaApp.swift */,
 				7666357429BF411A008EEBBA /* ContentView.swift */,
 				7666357629BF411D008EEBBA /* Assets.xcassets */,
@@ -125,6 +134,17 @@
 				7666358F29BF411D008EEBBA /* AfricaUITestsLaunchTests.swift */,
 			);
 			path = AfricaUITests;
+			sourceTree = "<group>";
+		};
+		766635B129BF42CF008EEBBA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				766635B529BF42E0008EEBBA /* animals.json */,
+				766635B329BF42E0008EEBBA /* covers.json */,
+				766635B229BF42E0008EEBBA /* locations.json */,
+				766635B429BF42E0008EEBBA /* videos.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766635B629BF42E0008EEBBA /* locations.json in Resources */,
+				766635B829BF42E0008EEBBA /* videos.json in Resources */,
 				7666357A29BF411D008EEBBA /* Preview Assets.xcassets in Resources */,
+				766635B729BF42E0008EEBBA /* covers.json in Resources */,
+				766635B929BF42E0008EEBBA /* animals.json in Resources */,
 				7666357729BF411D008EEBBA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
