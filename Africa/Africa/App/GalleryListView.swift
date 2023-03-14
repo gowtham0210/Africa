@@ -1,5 +1,5 @@
 //
-//  MainView.swift
+//  GalleryView.swift
 //  Africa
 //
 //  Created by Gowtham Bujju on 14/03/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct MainView: View {
+struct GalleryListView: View {
     var body: some View {
-        TabView
+        Text("Gallery View")
     }
 }
 
-struct MainView_Previews: PreviewProvider {
+struct GalleryListView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        GalleryListView()
     }
 }

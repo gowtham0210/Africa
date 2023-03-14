@@ -1,5 +1,5 @@
 //
-//  VideoView.swift
+//  MapView.swift
 //  Africa
 //
 //  Created by Gowtham Bujju on 14/03/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct VideoView: View {
+struct MapListView: View {
     var body: some View {
-        Text("Video View")
+        Text("Map View")
     }
 }
 
-struct VideoView_Previews: PreviewProvider {
+struct MapListView_Previews: PreviewProvider {
     static var previews: some View {
-        VideoView()
+        MapListView()
     }
 }

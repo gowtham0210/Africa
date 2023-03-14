@@ -1,5 +1,5 @@
 //
-//  GalleryView.swift
+//  VideoView.swift
 //  Africa
 //
 //  Created by Gowtham Bujju on 14/03/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct GalleryView: View {
+struct VideoListView: View {
     var body: some View {
-        Text("Gallery View")
+        Text("Video View")
     }
 }
 
-struct GalleryView_Previews: PreviewProvider {
+struct VideoListView_Previews: PreviewProvider {
     static var previews: some View {
-        GalleryView()
+        VideoListView()
     }
 }
