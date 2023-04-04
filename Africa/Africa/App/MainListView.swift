@@ -18,7 +18,7 @@ struct MainView: View {
                 Image(systemName: "play.rectangle")
                 Text("Watch")
             }
-            MapListView().tabItem{
+            MapView().tabItem{
                 Image(systemName: "map")
                 Text("Locations")
             }
